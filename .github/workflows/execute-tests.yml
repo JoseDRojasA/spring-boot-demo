@@ -22,7 +22,3 @@ jobs:
         run: |
           chmod +x mvnw
           ./mvnw test          
-
-      - name: Run build
-        run: |
-          ./mvnw install
