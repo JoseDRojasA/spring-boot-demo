@@ -20,9 +20,9 @@ jobs:
 
       - name: Run tests
         run: |
+          chmod +x mvnw
           ./mvnw test          
 
       - name: Run build
         run: |
-          chmod +x mvnw
           ./mvnw install
